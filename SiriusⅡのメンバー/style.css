@@ -1,0 +1,182 @@
+
+/* ===== Webサイト全体のスタイル ===== */
+/* html */
+html {
+  height: 100%;
+}
+
+/* body */
+body {
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+/* h1見出し */
+h1 {
+  color: #000000; /* フォントの色 */
+  font-size: 90px; /* フォントの大きさ */
+  font-family: Zen Maru Gothic; /* フォントの種類 */
+  border-style: solid; /* 線の種類 */
+  border-color: rgb(117, 134, 189); /* 線の色 */
+  border-width: 10px; /* 線の太さ */
+  text-align: center; /* 文字・画像を中央にそろえる */
+  border-radius: 90px; /* 枠線の角丸 */
+  padding: 20px; /* 内側の余白 */
+  margin: 30px; /* 外側の余白 */
+  -webkit-text-stroke: 2px #ffffff;
+  paint-order: stroke fill;
+}
+
+/* ===== ヘッダーのスタイル ===== */
+/* ヘッダーの箱 */
+header {
+  background-image: url(../img/unnamed.png); /* 背景画像 */
+  height: 350px; /* 高さ */
+  padding-top: 100px; /* 上がわの余白 */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* 本文 */
+
+
+
+/* h2見出し */
+.title {
+  font-size: 30px;
+  border-left-style: solid;
+  border-left-width: 10px;
+  padding-left: 15px;
+  margin-bottom: 50px;
+  color: #663300;
+}
+/*Siriusの紹介*/
+.sirius p {
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 30px;
+  height: auto;
+  display: flex;
+  font-family: Zen Maru Gothic;
+  color: #422100;
+}
+.sirius {
+  border-radius: 30px;
+  padding: 20px;
+  height: auto;
+  background-color: #e5fdff;
+}
+
+/* Cheetahの紹介 */
+.cheetah p {
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 30px;
+  height: auto;
+  color: #422100;
+}
+
+.cheetah {
+  font-size: 20;
+  background-color: #e5fdff;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.cheetah p {
+  display: flex;
+}
+
+/* ===== 最下部のスタイル ===== */
+/* セクション */
+.photo {
+  padding: 30px;
+  background-image: url(../img/typeA.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* h2見出し */
+.photo h2 {
+  color: #ffffff;
+  border-color: #11ffeb;
+}
+
+/* h3見出し */
+.photo h3 {
+  color: #663300;
+}
+
+/* 段落 */
+.photo p {
+  color: #ffffff;
+}
+
+.photo .photo_container {
+  display: flex;
+}
+
+.photo_card {
+  background-color: #ffffff;
+  /* width: 240px; 横幅を指定する */
+ font-family: Kaisei Opti;
+  padding: 15px;
+  margin: 10px;
+  box-shadow: 10px 10px 20px #000000; /* 影を指定する */
+
+  img {
+    height: 100px;
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+  
+  }
+  
+}
+.photo {
+  font-family: Kaisei Opti;
+  -webkit-text-stroke: 1px #000000;
+  paint-order: stroke fill;
+  a {
+   opacity: 1;
+   transition: opacity 0.3s ease;
+ }
+
+ a:hover {
+   opacity: 0.6;
+ }
+}
+.toc{
+  font-family: Zen Maru Gothic;
+  color: #0055ff;
+  background-color: #e5fdff;
+  padding: 15px;
+}
+/*本文2つ目*/
+.robocup-j {
+  background-color: #e5fdff; /* 背景の色 */
+  color: #663300;
+  padding: 30px;
+  font-family: Zen Maru Gothic;
+}
+
+
+/* 段落 */
+.rcj-m {
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 30px;
+  height: auto;
+  color: #422100;
+}
+
+/* 画像 */
+.rcj-m p {
+  display: flex;
+}
